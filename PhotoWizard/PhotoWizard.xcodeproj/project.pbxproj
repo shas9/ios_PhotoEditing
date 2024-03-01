@@ -14,6 +14,7 @@
 		1AED7DD12B9249640034FC3A /* PhotoWizardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AED7DD02B9249640034FC3A /* PhotoWizardTests.swift */; };
 		1AED7DDB2B9249640034FC3A /* PhotoWizardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AED7DDA2B9249640034FC3A /* PhotoWizardUITests.swift */; };
 		1AED7DDD2B9249640034FC3A /* PhotoWizardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AED7DDC2B9249640034FC3A /* PhotoWizardUITestsLaunchTests.swift */; };
+		1AED7DF52B9265030034FC3A /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AED7DF42B9265030034FC3A /* CustomButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		1AED7DD62B9249640034FC3A /* PhotoWizardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoWizardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AED7DDA2B9249640034FC3A /* PhotoWizardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoWizardUITests.swift; sourceTree = "<group>"; };
 		1AED7DDC2B9249640034FC3A /* PhotoWizardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoWizardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1AED7DF42B9265030034FC3A /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				1AED7DBF2B9249620034FC3A /* PhotoWizardApp.swift */,
+				1AED7DF22B9264D70034FC3A /* CustomView */,
 				1AED7DEB2B924A2E0034FC3A /* Views */,
 			);
 			path = Src;
@@ -149,6 +152,14 @@
 				1AED7DC12B9249620034FC3A /* ContentView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		1AED7DF22B9264D70034FC3A /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				1AED7DF42B9265030034FC3A /* CustomButton.swift */,
+			);
+			path = CustomView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,6 +292,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AED7DF52B9265030034FC3A /* CustomButton.swift in Sources */,
 				1AED7DC22B9249620034FC3A /* ContentView.swift in Sources */,
 				1AED7DC02B9249620034FC3A /* PhotoWizardApp.swift in Sources */,
 			);
