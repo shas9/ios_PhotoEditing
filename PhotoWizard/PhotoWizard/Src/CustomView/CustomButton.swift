@@ -9,8 +9,6 @@ import SwiftUI
 
 struct CustomButton: View {
     
-    
-    
     let buttonText: String
     let buttonType: ButtonType
     let buttonWidth: CGFloat
@@ -36,12 +34,12 @@ struct CustomButton: View {
             self.buttonAction()
         } label: {
             Text(self.buttonText)
+                .font(.system(size: 14, weight: .medium))
                 .foregroundColor(getButtonTextColor())
                 .frame(width: self.buttonWidth, height: self.buttonHeight)
                 .background(getButtonColor())
                 .cornerRadius(12)
         }
-        
     }
     
     func getButtonTextColor() -> Color {
