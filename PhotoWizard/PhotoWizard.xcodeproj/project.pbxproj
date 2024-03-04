@@ -17,6 +17,9 @@
 		1AED7DF12B9259E70034FC3A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AED7DF02B9259E70034FC3A /* HomeView.swift */; };
 		1AED7DF52B9265030034FC3A /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AED7DF42B9265030034FC3A /* CustomButton.swift */; };
 		1AED7DF92B959BDF0034FC3A /* BackgroundBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AED7DF82B959BDF0034FC3A /* BackgroundBlurView.swift */; };
+		573AD9FACDFDD8D22FC11646 /* Pods_PhotoWizard_PhotoWizardUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74AEA40A3D5C7EFB99BC92D1 /* Pods_PhotoWizard_PhotoWizardUITests.framework */; };
+		B7028F97CAE642CEE1ACB9A0 /* Pods_PhotoWizard_PhotoWizardTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B836338A523C6A0DB6C15F /* Pods_PhotoWizard_PhotoWizardTests.framework */; };
+		C09562E264F91403CEA91EAE /* Pods_PhotoWizard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5921E97D5A0FBE8D909CF91C /* Pods_PhotoWizard.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07963E5CC9FF5D341A1362DE /* Pods-PhotoWizard-PhotoWizardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoWizard-PhotoWizardTests.release.xcconfig"; path = "Target Support Files/Pods-PhotoWizard-PhotoWizardTests/Pods-PhotoWizard-PhotoWizardTests.release.xcconfig"; sourceTree = "<group>"; };
+		1470690BB932F6A0C4102B65 /* Pods-PhotoWizard-PhotoWizardUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoWizard-PhotoWizardUITests.debug.xcconfig"; path = "Target Support Files/Pods-PhotoWizard-PhotoWizardUITests/Pods-PhotoWizard-PhotoWizardUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		1AED7DBC2B9249620034FC3A /* PhotoWizard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoWizard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AED7DBF2B9249620034FC3A /* PhotoWizardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoWizardApp.swift; sourceTree = "<group>"; };
 		1AED7DC12B9249620034FC3A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -50,6 +55,13 @@
 		1AED7DF02B9259E70034FC3A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		1AED7DF42B9265030034FC3A /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		1AED7DF82B959BDF0034FC3A /* BackgroundBlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundBlurView.swift; sourceTree = "<group>"; };
+		215ECAED499D55CEE84B456F /* Pods-PhotoWizard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoWizard.release.xcconfig"; path = "Target Support Files/Pods-PhotoWizard/Pods-PhotoWizard.release.xcconfig"; sourceTree = "<group>"; };
+		2CCFA15018AAB54784C6EBE6 /* Pods-PhotoWizard-PhotoWizardUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoWizard-PhotoWizardUITests.release.xcconfig"; path = "Target Support Files/Pods-PhotoWizard-PhotoWizardUITests/Pods-PhotoWizard-PhotoWizardUITests.release.xcconfig"; sourceTree = "<group>"; };
+		40082CA0D41B40AE3489A2C0 /* Pods-PhotoWizard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoWizard.debug.xcconfig"; path = "Target Support Files/Pods-PhotoWizard/Pods-PhotoWizard.debug.xcconfig"; sourceTree = "<group>"; };
+		5921E97D5A0FBE8D909CF91C /* Pods_PhotoWizard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotoWizard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74AEA40A3D5C7EFB99BC92D1 /* Pods_PhotoWizard_PhotoWizardUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotoWizard_PhotoWizardUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76B836338A523C6A0DB6C15F /* Pods_PhotoWizard_PhotoWizardTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotoWizard_PhotoWizardTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD7C5B7352F3475551946983 /* Pods-PhotoWizard-PhotoWizardTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoWizard-PhotoWizardTests.debug.xcconfig"; path = "Target Support Files/Pods-PhotoWizard-PhotoWizardTests/Pods-PhotoWizard-PhotoWizardTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C09562E264F91403CEA91EAE /* Pods_PhotoWizard.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7028F97CAE642CEE1ACB9A0 /* Pods_PhotoWizard_PhotoWizardTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				573AD9FACDFDD8D22FC11646 /* Pods_PhotoWizard_PhotoWizardUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +99,8 @@
 				1AED7DCF2B9249640034FC3A /* PhotoWizardTests */,
 				1AED7DD92B9249640034FC3A /* PhotoWizardUITests */,
 				1AED7DBD2B9249620034FC3A /* Products */,
+				8925ECB1B1F0CD9A90C7CE6B /* Pods */,
+				7E07C22CAB1C29EFA48C784F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -168,6 +185,30 @@
 			path = CustomView;
 			sourceTree = "<group>";
 		};
+		7E07C22CAB1C29EFA48C784F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5921E97D5A0FBE8D909CF91C /* Pods_PhotoWizard.framework */,
+				76B836338A523C6A0DB6C15F /* Pods_PhotoWizard_PhotoWizardTests.framework */,
+				74AEA40A3D5C7EFB99BC92D1 /* Pods_PhotoWizard_PhotoWizardUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8925ECB1B1F0CD9A90C7CE6B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				40082CA0D41B40AE3489A2C0 /* Pods-PhotoWizard.debug.xcconfig */,
+				215ECAED499D55CEE84B456F /* Pods-PhotoWizard.release.xcconfig */,
+				CD7C5B7352F3475551946983 /* Pods-PhotoWizard-PhotoWizardTests.debug.xcconfig */,
+				07963E5CC9FF5D341A1362DE /* Pods-PhotoWizard-PhotoWizardTests.release.xcconfig */,
+				1470690BB932F6A0C4102B65 /* Pods-PhotoWizard-PhotoWizardUITests.debug.xcconfig */,
+				2CCFA15018AAB54784C6EBE6 /* Pods-PhotoWizard-PhotoWizardUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -175,6 +216,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1AED7DE02B9249640034FC3A /* Build configuration list for PBXNativeTarget "PhotoWizard" */;
 			buildPhases = (
+				6A5034C0C531B858BB846ECD /* [CP] Check Pods Manifest.lock */,
 				1AED7DB82B9249620034FC3A /* Sources */,
 				1AED7DB92B9249620034FC3A /* Frameworks */,
 				1AED7DBA2B9249620034FC3A /* Resources */,
@@ -192,9 +234,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1AED7DE32B9249640034FC3A /* Build configuration list for PBXNativeTarget "PhotoWizardTests" */;
 			buildPhases = (
+				0E0425426F2870812BEF7E03 /* [CP] Check Pods Manifest.lock */,
 				1AED7DC82B9249640034FC3A /* Sources */,
 				1AED7DC92B9249640034FC3A /* Frameworks */,
 				1AED7DCA2B9249640034FC3A /* Resources */,
+				35D27ABEA00E15EDC3BFB0AE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -210,6 +254,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1AED7DE62B9249640034FC3A /* Build configuration list for PBXNativeTarget "PhotoWizardUITests" */;
 			buildPhases = (
+				E5FFDD718345F6EA484974C0 /* [CP] Check Pods Manifest.lock */,
 				1AED7DD22B9249640034FC3A /* Sources */,
 				1AED7DD32B9249640034FC3A /* Frameworks */,
 				1AED7DD42B9249640034FC3A /* Resources */,
@@ -292,6 +337,92 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E0425426F2870812BEF7E03 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhotoWizard-PhotoWizardTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35D27ABEA00E15EDC3BFB0AE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhotoWizard-PhotoWizardTests/Pods-PhotoWizard-PhotoWizardTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhotoWizard-PhotoWizardTests/Pods-PhotoWizard-PhotoWizardTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PhotoWizard-PhotoWizardTests/Pods-PhotoWizard-PhotoWizardTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A5034C0C531B858BB846ECD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhotoWizard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5FFDD718345F6EA484974C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhotoWizard-PhotoWizardUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1AED7DB82B9249620034FC3A /* Sources */ = {
@@ -391,7 +522,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -448,7 +579,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -460,6 +591,7 @@
 		};
 		1AED7DE12B9249640034FC3A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40082CA0D41B40AE3489A2C0 /* Pods-PhotoWizard.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -491,6 +623,7 @@
 		};
 		1AED7DE22B9249640034FC3A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 215ECAED499D55CEE84B456F /* Pods-PhotoWizard.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -522,6 +655,7 @@
 		};
 		1AED7DE42B9249640034FC3A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD7C5B7352F3475551946983 /* Pods-PhotoWizard-PhotoWizardTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -542,6 +676,7 @@
 		};
 		1AED7DE52B9249640034FC3A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07963E5CC9FF5D341A1362DE /* Pods-PhotoWizard-PhotoWizardTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -562,6 +697,7 @@
 		};
 		1AED7DE72B9249640034FC3A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1470690BB932F6A0C4102B65 /* Pods-PhotoWizard-PhotoWizardUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -580,6 +716,7 @@
 		};
 		1AED7DE82B9249640034FC3A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CCFA15018AAB54784C6EBE6 /* Pods-PhotoWizard-PhotoWizardUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

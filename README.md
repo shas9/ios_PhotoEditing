@@ -20,7 +20,9 @@ To get started with our application, follow these steps:
 
 2. **Open the Project**: Open the project in Xcode.
 
-3. **Build and Run**: Build and run the project on your iOS device or simulator.
+3. **Initiate pod**: Run `pod install` command on the project directory
+
+3. **Build and Run**: Build and run the .xcworkspace file on your iOS device or simulator.
 
 4. **Explore Features**: Explore the different features of the application, including removing background, blurring background, and changing background.
 
@@ -37,6 +39,12 @@ Our application uses the following dependencies:
 - **Photos**: Framework for accessing and managing photo libraries.
 - **SwiftUI**: For creating dynamic and interactive user interfaces.
 - **CoreML (DeepLabV3)**: For separating the subject from the background.
+
+## Pods
+
+Our application uses the following pods:
+- **Huawei Model**: Used MLImageSegmentationModel for image segmentation
+
 
 ## Contributing
 
