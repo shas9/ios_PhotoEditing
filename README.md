@@ -16,8 +16,7 @@ Our application offers the following features:
 
 To get started with our application, follow these steps:
 
-1. **Clone the Repository**: Clone our project repository to your local machine.
-
+1. **Clone the Repository**: [Clone](https://github.com/shas9/ios_PhotoEditing.git) our project repository to your local machine.
 
 2. **Open the Project**: Open the project in Xcode.
 
@@ -27,8 +26,8 @@ To get started with our application, follow these steps:
 
 ## Requirements
 
-- iOS device running iOS 12.0 or later
-- Xcode 12.0 or later
+- iOS device running iOS 15.0 or later
+- Xcode 15.2 or later
 
 ## Dependencies
 
