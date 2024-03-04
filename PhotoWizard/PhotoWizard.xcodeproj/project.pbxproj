@@ -16,6 +16,7 @@
 		1AED7DDD2B9249640034FC3A /* PhotoWizardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AED7DDC2B9249640034FC3A /* PhotoWizardUITestsLaunchTests.swift */; };
 		1AED7DF12B9259E70034FC3A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AED7DF02B9259E70034FC3A /* HomeView.swift */; };
 		1AED7DF52B9265030034FC3A /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AED7DF42B9265030034FC3A /* CustomButton.swift */; };
+		1AED7DF92B959BDF0034FC3A /* BackgroundBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AED7DF82B959BDF0034FC3A /* BackgroundBlurView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		1AED7DDC2B9249640034FC3A /* PhotoWizardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoWizardUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		1AED7DF02B9259E70034FC3A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		1AED7DF42B9265030034FC3A /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		1AED7DF82B959BDF0034FC3A /* BackgroundBlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundBlurView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +155,7 @@
 			children = (
 				1AED7DC12B9249620034FC3A /* ContentView.swift */,
 				1AED7DF02B9259E70034FC3A /* HomeView.swift */,
+				1AED7DF82B959BDF0034FC3A /* BackgroundBlurView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -299,6 +302,7 @@
 				1AED7DF12B9259E70034FC3A /* HomeView.swift in Sources */,
 				1AED7DC22B9249620034FC3A /* ContentView.swift in Sources */,
 				1AED7DC02B9249620034FC3A /* PhotoWizardApp.swift in Sources */,
+				1AED7DF92B959BDF0034FC3A /* BackgroundBlurView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,8 +469,8 @@
 				DEVELOPMENT_TEAM = 9G2DU2SAH6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = PhotoWizard;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.photography";
+				INFOPLIST_KEY_NSCameraUsageDescription = "PhotoWizard requires permission to select photos";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -496,8 +500,8 @@
 				DEVELOPMENT_TEAM = 9G2DU2SAH6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = PhotoWizard;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.photography";
+				INFOPLIST_KEY_NSCameraUsageDescription = "PhotoWizard requires permission to select photos";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
