@@ -48,15 +48,19 @@ struct BackgroundBlurView: View {
                 ZStack {
                     Rectangle()
                         .foregroundStyle(.black)
-                    Image("HomeContentImage")
+                    Image(uiImage: self.image)
                         .resizable()
+                        .blur(radius: self.blurAmount)
+                        .clipped()
                         .aspectRatio(contentMode: .fit)
                         .frame(height: getImageHeight(displayHeight: mainGeometry.size.height))
-                        
-                    Image("\(self.image)")
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
-                        .frame(height: getImageHeight(displayHeight: mainGeometry.size.height))
+                    
+                    if let segmentedImage = self.image.segment() {
+                        Image(uiImage: segmentedImage)
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                            .frame(height: getImageHeight(displayHeight: mainGeometry.size.height))
+                    }
                 }
                 Spacer()
                 

@@ -18,6 +18,7 @@
 		1AED7DF12B9259E70034FC3A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AED7DF02B9259E70034FC3A /* HomeView.swift */; };
 		1AED7DF52B9265030034FC3A /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AED7DF42B9265030034FC3A /* CustomButton.swift */; };
 		1AED7DF92B959BDF0034FC3A /* BackgroundBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AED7DF82B959BDF0034FC3A /* BackgroundBlurView.swift */; };
+		1AED7E022B95CC4A0034FC3A /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AED7E012B95CC4A0034FC3A /* UIImageExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		1AED7DF02B9259E70034FC3A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		1AED7DF42B9265030034FC3A /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		1AED7DF82B959BDF0034FC3A /* BackgroundBlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundBlurView.swift; sourceTree = "<group>"; };
+		1AED7E012B95CC4A0034FC3A /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
 		69121C2A105EBBE7883A356A /* Pods-PhotoWizard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoWizard.release.xcconfig"; path = "Target Support Files/Pods-PhotoWizard/Pods-PhotoWizard.release.xcconfig"; sourceTree = "<group>"; };
 		9859B9544D62B3535221F022 /* Pods-PhotoWizard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoWizard.debug.xcconfig"; path = "Target Support Files/Pods-PhotoWizard/Pods-PhotoWizard.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -177,21 +179,24 @@
 			path = CustomView;
 			sourceTree = "<group>";
 		};
+		1AED7E002B95CC2A0034FC3A /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				1AED7E012B95CC4A0034FC3A /* UIImageExtension.swift */,
 			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
+		1AED7E032B95DA490034FC3A /* BaseViews */ = {
 			isa = PBXGroup;
 			children = (
 			);
+			path = BaseViews;
 			sourceTree = "<group>";
 		};
 		769C6FE84056D6852E33E7E5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6FAE2BAE801F5417B71901B8 /* Pods_PhotoWizard_PhotoWizardTests.framework */,
-				7E743E6D8B80BB8A96ADDA65 /* Pods_PhotoWizard_PhotoWizardUITests.framework */,
 				05F8A9FDC1CDD764E6087713 /* Pods_PhotoWizard.framework */,
 			);
 			name = Frameworks;
@@ -385,6 +390,7 @@
 				1AED7DC22B9249620034FC3A /* ContentView.swift in Sources */,
 				1AED7DC02B9249620034FC3A /* PhotoWizardApp.swift in Sources */,
 				1AED7DF92B959BDF0034FC3A /* BackgroundBlurView.swift in Sources */,
+				1AED7E022B95CC4A0034FC3A /* UIImageExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
