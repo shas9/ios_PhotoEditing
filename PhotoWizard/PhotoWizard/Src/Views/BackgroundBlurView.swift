@@ -9,13 +9,15 @@ import SwiftUI
 import Vision
 import CoreML
 struct BackgroundBlurView: View {
+    @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
+    
     @State private var blurAmount: Double = 0
     
     let image: UIImage
 
     init(image: UIImage) {
-        self.blurAmount = 50
         self.image = image
+        self.blurAmount = 50
     }
     
     var body: some View {
@@ -23,7 +25,7 @@ struct BackgroundBlurView: View {
             VStack(spacing: 12) {
                 HStack {
                     Button() {
-                        
+                        self.presentationMode.wrappedValue.dismiss()
                     } label: {
                         Image("BackMenuButton")
                     }

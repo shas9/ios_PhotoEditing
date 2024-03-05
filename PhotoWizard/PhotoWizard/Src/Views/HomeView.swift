@@ -41,7 +41,7 @@ struct HomeView: View {
                     Spacer()
                     Image("HomeContentImage")
                         .resizable()
-                        .scaledToFill()
+                        .aspectRatio(contentMode: .fill)
                         .frame(height: getImageHeight(displayHeight: mainGeometry.size.height))
                         .clipped()
                     Spacer()
