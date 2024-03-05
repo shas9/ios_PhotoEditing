@@ -97,6 +97,7 @@ struct BackgroundBlurView: View {
                 .frame(height: 180)
                 .padding([.leading, .trailing], 16)
             }
+            .navigationBarHidden(true)
         }
     }
     

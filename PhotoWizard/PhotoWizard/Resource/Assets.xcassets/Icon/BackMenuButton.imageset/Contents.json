@@ -1,7 +1,27 @@
 {
   "images" : [
     {
-      "filename" : "BackMenuButton.svg",
+      "filename" : "BackButton.svg",
+      "idiom" : "universal"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "light"
+        }
+      ],
+      "filename" : "BackButton 1.svg",
+      "idiom" : "universal"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "dark"
+        }
+      ],
+      "filename" : "BackButton-white.svg",
       "idiom" : "universal"
     }
   ],
