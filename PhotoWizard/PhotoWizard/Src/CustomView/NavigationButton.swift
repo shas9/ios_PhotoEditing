@@ -9,18 +9,13 @@ import SwiftUI
 
 struct NavigationButton: View {
     let buttonText: String
-    let buttonType: ButtonType
+    let buttonType: BaseButtonView.ButtonType
     let buttonWidth: CGFloat
     let buttonHeight: CGFloat
     
     let destinationView: AnyView
     
-    enum ButtonType {
-        case normal
-        case highlighted
-    }
-    
-    init(text: String, type: ButtonType, width: CGFloat, height: CGFloat, destination: some View) {
+    init(text: String, type: BaseButtonView.ButtonType, width: CGFloat, height: CGFloat, destination: some View) {
         self.buttonText = text
         self.buttonType = type
         self.buttonWidth = width
@@ -32,30 +27,10 @@ struct NavigationButton: View {
         NavigationLink {
             self.destinationView
         } label: {
-            Text(self.buttonText)
-                .font(.system(size: 14, weight: .medium))
-                .foregroundColor(getButtonTextColor())
-                .frame(width: self.buttonWidth, height: self.buttonHeight)
-                .background(getButtonColor())
-                .cornerRadius(12)
-        }
-    }
-    
-    func getButtonTextColor() -> Color {
-        switch self.buttonType {
-        case .normal:
-            return .black
-        case .highlighted:
-            return .white
-        }
-    }
-    
-    func getButtonColor() -> Color {
-        switch self.buttonType {
-        case .normal:
-            return Color("ButtonColor")
-        case .highlighted:
-            return Color("HighlightedButtonColor")
+            BaseButtonView(text: self.buttonText,
+                             type: self.buttonType,
+                             width: self.buttonWidth,
+                             height: self.buttonHeight)
         }
     }
 }
