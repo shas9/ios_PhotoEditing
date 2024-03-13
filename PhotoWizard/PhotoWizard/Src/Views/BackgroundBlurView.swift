@@ -52,7 +52,7 @@ struct BackgroundBlurView: View {
                         .foregroundStyle(.black)
                     Image(uiImage: self.image)
                         .resizable()
-                        .blur(radius: self.blurAmount)
+                        .blur(radius: self.blurAmount / 10)
                         .clipped()
                         .aspectRatio(contentMode: .fit)
                         .frame(height: getImageHeight(displayHeight: mainGeometry.size.height))
