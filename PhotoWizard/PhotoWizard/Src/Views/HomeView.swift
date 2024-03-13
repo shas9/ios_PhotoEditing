@@ -81,6 +81,7 @@ struct HomeView: View {
                                             self.showBlurView = true
                                         }
                                         print("Failed to load the image")
+                                        self.selectedItem = nil
                                         
                                     }
                                 }
