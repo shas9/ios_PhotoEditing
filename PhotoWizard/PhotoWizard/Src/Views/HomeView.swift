@@ -6,8 +6,13 @@
 //
 
 import SwiftUI
+import PhotosUI
 
 struct HomeView: View {
+    @State var selectedItem: PhotosPickerItem?
+    @State var selectedImage: UIImage?
+    @State var showBlurView: Bool = false
+    
     var body: some View {
         GeometryReader { mainGeometry in
             NavigationView {
@@ -62,11 +67,23 @@ struct HomeView: View {
                                                  width: geometry.size.width,
                                                  height: 40,
                                                  destination: VStack {})
-                                NavigationButton(text: "Blur Background",
-                                                 type: .normal,
-                                                 width: geometry.size.width,
-                                                 height: 40,
-                                                 destination: BackgroundBlurView(image: UIImage(resource: .homeContent)))
+                                
+                                PhotosPicker(selection: self.$selectedItem) {
+                                    BaseButtonView(text: "Blur Background",
+                                                   type: .normal,
+                                                   width: geometry.size.width,
+                                                   height: 40)
+                                }
+                                .onChange(of: self.selectedItem) { newValue in
+                                    Task {
+                                        if let data = try? await selectedItem?.loadTransferable(type: Data.self) {
+                                            self.selectedImage = UIImage(data: data)
+                                            self.showBlurView = true
+                                        }
+                                        print("Failed to load the image")
+                                        
+                                    }
+                                }
                                 
                             }
                             .padding([.top, .bottom], 12)
@@ -76,6 +93,11 @@ struct HomeView: View {
                     }
                     .frame(height: 200)
                     .padding([.leading, .trailing], 16)
+                }
+            }
+            .sheet(isPresented: self.$showBlurView) {
+                if let selectedImage {
+                    BackgroundBlurView(image: selectedImage)
                 }
             }
         }
